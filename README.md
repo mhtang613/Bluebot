@@ -1,0 +1,2 @@
+# Bluebot
+Discord bot
