@@ -1,0 +1,34 @@
+node index.js			run bot
+node deploy-commands.js		start commands, run after editing
+	to add more commands, create a new file in the commands folder
+
+node dbInit.js			create the database tables
+				don't need to edit dbInit.js unless changing models
+node dbInit.js --force (or -f)	to force synce the tables, will empty and remake model tables
+
+
+https://discordjs.guide/creating-your-bot/creating-commands.html#the-problem-with-if-else-if
+
+https://discordjs.guide/sequelize/currency.html#file-overview
+
+https://github.com/discordjs/guide/tree/main/code-samples/creating-your-bot/command-handling/commands
+
+ideas:
+	welcome new people
+	add some APIs
+	minigames
+
+
+
+
+
+
+
+
+----------------------------------
+minigames menu
+	powerball - 5 num 1-69 whiteballs, and 1 num 1-26 red powerball
+	
+earn coins from games
+buy items with coins
+
